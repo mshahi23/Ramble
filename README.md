@@ -1,5 +1,8 @@
 # Ramble 
+## CS 320 - User Interface Design
+### Note: Orignial repo is in the course's organization which is private
 <hr/>
+
 
 ## **Group Name**: We Tried, Ok?
 
