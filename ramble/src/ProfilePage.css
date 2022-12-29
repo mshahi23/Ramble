@@ -1,0 +1,10 @@
+.prof {
+    display: flex;
+    height: 100vh;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+    max-width: 100%;
+  }
+  

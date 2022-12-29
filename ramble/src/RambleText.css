@@ -1,0 +1,68 @@
+.textBox {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 4px solid var(--background_2);
+    padding-right: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0.2em 1.5em rgb(51, 48, 48);
+}
+  
+.textBox > form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.rambleInput {
+    display: flex;
+}
+
+.rambleTitle {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 15px;
+    padding: 20px;
+    border: none;
+    text-align: left;
+}
+
+.rambleTopic {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 15px;
+    padding: 20px;
+    border: none;
+    text-align: left;
+}
+  
+.rambleText {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 20px;
+    border: none;
+    text-align: left;
+}
+  
+.rambleImage {
+    flex: 1;
+    margin-left: 20px;
+    border: none;
+    padding: 20px;
+    font-size: 15px;
+    text-align: left;
+}
+  
+.rambleButton {
+    background-color: var(--primary) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    width: 80px;
+    height: 40px !important;
+    margin-top: 20px !important;
+    margin-left: auto !important;
+}
+  
+

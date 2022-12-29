@@ -1,0 +1,130 @@
+.back_edit {
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(45deg, #4e040c, #2f2960, #553131, #0f4f40) ;
+    background-size: 100% 300%;
+    animation: color 12s ease-in-out infinite;
+}
+
+@keyframes color {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+.edit_profile{
+    text-align: center;
+    padding: 10px;
+    flex: 0.4;
+    min-width: fit-content;
+    border: 20px;
+    border-radius: 20px;
+    background-color: var(--primary);
+    box-shadow: 0 0.2em 1.5em rgb(150,150,150);
+    position: relative;
+}
+
+.profile_image{
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.update_text{
+    font-weight: 600;
+}
+
+.confirmation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -5px;
+    width: -12px;;
+}
+
+.flex2{
+    display: flex;
+    justify-content: space-around;
+    width: 12;
+    margin-top: 4;
+}
+
+.flex3{
+    display: flex;
+    justify-content: space-around; 
+}
+
+.info_fields {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+}
+
+.input{
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    width: 180px; 
+    height: 10px;
+    font-size: 600;
+}
+
+.update_button{
+    background-color: white !important;
+    border: none !important;
+    color: var(--primary) !important;
+    font-weight: 900 !important;
+    border-radius: 30px !important;
+    margin-top: 20px !important;
+    height: 50px !important;
+    text-transform: inherit !important; 
+    position: relative !important;
+    padding: 20px !important;
+}
+
+.dialog_buttons{
+    background-color: var(--primary) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    border-radius: 30px !important;
+    margin-top: 20px !important;
+    height: 50px !important;
+    text-transform: inherit !important; 
+    position: relative !important;
+    padding: 20px !important;
+}
+
+.info_text {
+    color: white;
+    text-align: left;
+}
+
+.header_text {
+    color: white;
+}
+
+.footer_buttons{
+    display: flex;
+}

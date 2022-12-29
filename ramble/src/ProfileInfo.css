@@ -1,0 +1,45 @@
+.info{
+    text-align: left;
+}
+
+.profile {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 4px solid var(--background_2);
+    padding-right: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0.2em 1.5em rgb(51, 48, 48);
+    text-align: center;
+    padding: 10px;
+    flex: 0.4;
+    border-right: 8px solid var(--background);
+    min-width: fit-content;
+    border: 20px;
+    background-color: white;
+}
+
+.edit_button {
+    background-color: var(--primary) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    margin-top: 20px !important;
+    margin-left: auto !important;
+    position: relative !important;
+    left: 50% !important;
+    -ms-transform: translate(-50%, -50%) !important;
+    transform: translate(-50%, -50%) !important;
+}
+
+.fields {
+    color: var(--primary);
+    /* padding-left: 20px; */
+    text-align: left;
+}
+
+.bio {
+    color: black;
+    padding-top: 20px;
+}

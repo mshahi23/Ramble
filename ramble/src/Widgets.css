@@ -1,0 +1,20 @@
+.widgets {
+    flex: 0.3;
+}
+
+.widget_header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid var(--background);
+    border-right: 1px solid var(--background);
+    border-top: 1px solid var(--background);
+    padding: 15px 20px;
+    color: var(--primary);
+    background-color: white;
+}
+
+.widget_header > h2 {
+    font-size: 20px;
+    font-weight: 800;
+}

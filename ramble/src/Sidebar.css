@@ -1,0 +1,43 @@
+.sidebar {
+    border-right: 1px solid var(--background);
+    flex: 0.3;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+.title {
+    min-width: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: var(--primary);
+}
+
+.sidebar_ramble {
+    background-color: var(--primary) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    border-radius: 30px !important;
+    margin-top: 20px !important;
+    height: 50px !important;
+    text-transform: inherit !important; 
+}
+
+.sidebar_logout {
+    background-color: var(--primary) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    border-radius: 30px !important;
+    margin-top: 20px !important;
+    height: 50px !important;
+    text-transform: inherit !important;
+    position:relative !important;
+    margin-top:75% !important;
+}
+
+.links{
+    text-decoration: none;
+    color: var(--primary);
+}

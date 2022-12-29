@@ -1,0 +1,15 @@
+body {
+  --primary: #720B23;
+  --secondary: #FFDE68;
+  --background: rgb(244, 239, 239);
+  --background_2: rgb(236, 236, 251);
+}
+
+.app {
+  /* display: flex; */
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding: 0 10px; */
+  max-width: 100%;
+}
